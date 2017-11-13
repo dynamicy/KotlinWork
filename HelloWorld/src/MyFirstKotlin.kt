@@ -31,13 +31,23 @@ fun main(args: Array<String>) {
     /**
      * Basic Input
      */
-    val guest:String = readLine()!!
+    val guest: String = readLine()!!
 
     println("Guest: " + guest)
 
-    val guestAge:Int = readLine()!!.toInt()
+    val guestAge: Int = readLine()!!.toInt()
 
     println("Guest Age: " + guestAge)
 
+    /**
+     * Null Safety
+     */
+    var pi: Double?
 
+    pi = null
+
+    println(pi)
+
+    // This will throw an exception
+    println(pi!!)
 }
