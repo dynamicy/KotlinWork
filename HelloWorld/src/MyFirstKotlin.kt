@@ -10,18 +10,22 @@ fun main(args: Array<String>) {
     println()
 
     /**
-     * Variable
+     * Variable v.s. Value
      */
-    var name: String = "Chris"
+    val name: String = "Chris"
 
-    var description: String
+    val description: String = " is a nerd!"
 
     var age: Int = 10
 
     var tall: Double = 170.8
 
-    description = " is a nerd!"
+    println(name + description + " Age: " + age + ", tall: " + tall + " cm.")
 
-    print(name + description + " Age: " + age + ", tall: " + tall + " cm.")
+    age = 20
+
+    tall = 170.9
+
+    println(name + description + " Age: " + age + ", tall: " + tall + " cm.")
 
 }
