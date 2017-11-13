@@ -28,4 +28,16 @@ fun main(args: Array<String>) {
 
     println(name + description + " Age: " + age + ", tall: " + tall + " cm.")
 
+    /**
+     * Basic Input
+     */
+    val guest:String = readLine()!!
+
+    println("Guest: " + guest)
+
+    val guestAge:Int = readLine()!!.toInt()
+
+    println("Guest Age: " + guestAge)
+
+
 }
