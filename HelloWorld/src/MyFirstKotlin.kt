@@ -57,9 +57,9 @@ fun main(args: Array<String>) {
      * Convert between Data Type
      */
     var piStr = "3.14"
-    var piDouble : Double
-    var piFloat : Float
-    var piBigDecimal : BigDecimal
+    var piDouble: Double
+    var piFloat: Float
+    var piBigDecimal: BigDecimal
 
     piDouble = piStr.toDouble()
 
@@ -73,5 +73,26 @@ fun main(args: Array<String>) {
 
     println("Pi in bigDecimal: " + piBigDecimal)
 
+    /**
+     * Math Operation
+     */
+    var n1: Int = readLine()!!.toInt()
+    var n2: Int = readLine()!!.toInt()
+    var result: Int
 
+    result = n1 + n2
+
+    println("result: " + result)
+
+    result = n1 - n2
+
+    println("result: " + result)
+
+    result = n1 * n2
+
+    println("result: " + result)
+
+    result = n1 / n2
+
+    println("result " + result)
 }
