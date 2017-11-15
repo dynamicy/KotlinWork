@@ -1,3 +1,5 @@
+import java.math.BigDecimal
+
 fun main(args: Array<String>) {
 
     /**
@@ -49,5 +51,27 @@ fun main(args: Array<String>) {
     println(pi)
 
     // This will throw an exception
-    println(pi!!)
+//    println(pi!!)
+
+    /**
+     * Convert between Data Type
+     */
+    var piStr = "3.14"
+    var piDouble : Double
+    var piFloat : Float
+    var piBigDecimal : BigDecimal
+
+    piDouble = piStr.toDouble()
+
+    println("Pi in double: " + piDouble)
+
+    piFloat = piStr.toFloat()
+
+    println("Pi in float: " + piFloat)
+
+    piBigDecimal = BigDecimal(piStr)
+
+    println("Pi in bigDecimal: " + piBigDecimal)
+
+
 }
