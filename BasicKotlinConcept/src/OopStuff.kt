@@ -1,4 +1,8 @@
-open class Operation() {
+interface op {
+    fun div(n1: Double, n2: Double): Double
+}
+
+open class Operation() : op {
 
     var processName: String? = null
 
@@ -13,6 +17,11 @@ open class Operation() {
     open fun add(n1: Double, n2: Double): Double {
         this.processName = "Add"
         return n1 + n2
+    }
+
+    override fun div(n1: Double, n2: Double): Double {
+        this.processName = "Div"
+        return n1 / n2
     }
 
     fun getName(): String? {
@@ -46,11 +55,6 @@ class AdvOperation() : Operation() {
     fun mul(n1: Double, n2: Double): Double {
         this.processName = "Mul"
         return n1 * n2
-    }
-
-    fun div(n1: Double, n2: Double): Double {
-        this.processName = "Div"
-        return n1 / n2
     }
 
     fun getParenetProcessName(): String? {
@@ -87,4 +91,8 @@ fun main(args: Array<String>) {
     val result4 = op3.add(10.0, 10.0)
     println("AdvOperation->div(10.0, 10.0) + 100.0 : $result4 ")
     println("Operation->add(10.0, 10.0) : " + Operation().add(10.0, 10.0))
+
+    // Casting
+    val op4 = AdvOperation() as Operation
+    println("Operation->add(10.0, 15.0) : " + op4.add(10.0, 15.0))
 }
