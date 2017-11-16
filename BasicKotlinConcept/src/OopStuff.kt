@@ -10,7 +10,7 @@ open class Operation() {
         println("Class Operation")
     }
 
-    fun add(n1: Double, n2: Double): Double {
+    open fun add(n1: Double, n2: Double): Double {
         this.processName = "Add"
         return n1 + n2
     }
@@ -32,6 +32,10 @@ class AdvOperation() : Operation() {
 
     init {
         println("Class AdvOperation")
+    }
+
+    override fun add(n1: Double, n2: Double): Double {
+        return n1 + n2 + 100.0
     }
 
     fun sub(n1: Double, n2: Double): Double {
@@ -77,4 +81,10 @@ fun main(args: Array<String>) {
     val result3 = AdvOperation().div(22.0, 2.0)
     println("AdvOperation->div(22.0, 2.0) : $result3 ")
     println("Parent Process Name: " + op2.getParenetProcessName())
+
+    // Override
+    val op3 = AdvOperation()
+    val result4 = op3.add(10.0, 10.0)
+    println("AdvOperation->div(10.0, 10.0) + 100.0 : $result4 ")
+    println("Operation->add(10.0, 10.0) : " + Operation().add(10.0, 10.0))
 }
