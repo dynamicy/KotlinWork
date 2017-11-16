@@ -1,4 +1,4 @@
-package com.examples.kotlin
+package com.examples.kotlin.file
 
 import java.io.FileWriter
 
@@ -9,20 +9,16 @@ class TextWriter {
         var file: FileWriter? = null
 
         try {
-            file = FileWriter(str, true)
+            file = FileWriter("test.txt", true)
             file.write(str)
-
+            file.close()
         } catch (ex: Exception) {
             println(ex.message)
-        } finally {
-            file!!.close()
         }
-
     }
 
     fun writeLine() {
-        val temp = readLine()!!
-        write(temp)
+        write(readLine()!!)
     }
 }
 
