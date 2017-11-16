@@ -9,13 +9,13 @@ interface op {
     fun div(n1: Double, n2: Double): Double
 }
 
-abstract class Log() {
-    fun showMsg(str: String?) {
+abstract class Operation() {
+    fun <T> showMsg(str: T) {
         println("[" + str + "]")
     }
 }
 
-open class Operation() : op, Log() {
+open class BasicOperation() : op, Operation() {
 
     var processName: String? = null
 
@@ -29,13 +29,13 @@ open class Operation() : op, Log() {
 
     open fun add(n1: Double, n2: Double): Double {
         this.processName = Operator.ADD.name
-        this.showMsg(this.processName)
+        this.showMsg<String>(this.processName!!)
         return n1 + n2
     }
 
     override fun div(n1: Double, n2: Double): Double {
         this.processName = Operator.DIV.name
-        this.showMsg(this.processName)
+        this.showMsg<String>(this.processName!!)
         return n1 / n2
     }
 
@@ -52,7 +52,7 @@ open class Operation() : op, Log() {
     }
 }
 
-class AdvOperation() : Operation() {
+class AdvOperation() : BasicOperation() {
 
     init {
         println("Class AdvOperation")
@@ -60,19 +60,19 @@ class AdvOperation() : Operation() {
 
     override fun add(n1: Double, n2: Double): Double {
         this.processName = Operator.ADD.name
-        this.showMsg(this.processName)
+        this.showMsg<String>(this.processName!!)
         return n1 + n2 + 100.0
     }
 
     fun sub(n1: Double, n2: Double): Double {
         this.processName = Operator.SUB.name
-        this.showMsg(this.processName)
+        this.showMsg<String>(this.processName!!)
         return n1 - n2
     }
 
     fun mul(n1: Double, n2: Double): Double {
         this.processName = Operator.MUL.name
-        this.showMsg(this.processName)
+        this.showMsg<String>(this.processName!!)
         return n1 * n2
     }
 
@@ -84,17 +84,17 @@ class AdvOperation() : Operation() {
 fun main(args: Array<String>) {
 
     // Operation
-    val op1 = Operation()
-    println("Operation->add(11.0, 12.0) : " + op1.add(10.0, 15.0))
+    val op1 = BasicOperation()
+    println("BasicOperation->add(11.0, 12.0) : " + op1.add(10.0, 15.0))
 
-    val result1 = Operation().add(11.0, 12.0)
-    println("Operation->add(11.0, 12.0) : $result1 ")
+    val result1 = BasicOperation().add(11.0, 12.0)
+    println("BasicOperation->add(11.0, 12.0) : $result1 ")
 
     // AdvOperation
     val op2 = AdvOperation()
-    println("Operation->add(10.0, 15.0) : " + op2.add(10.0, 15.0))
+    println("BasicOperation->add(10.0, 15.0) : " + op2.add(10.0, 15.0))
     println("Parent Process Name: " + op2.getParenetProcessName())
-    println("Operation->sub(10.0, 15.0) : " + op2.sub(10.0, 15.0))
+    println("BasicOperation->sub(10.0, 15.0) : " + op2.sub(10.0, 15.0))
     println("Parent Process Name: " + op2.getParenetProcessName())
 
     val result2 = AdvOperation().mul(11.0, 12.0)
@@ -108,11 +108,11 @@ fun main(args: Array<String>) {
     val op3 = AdvOperation()
     val result4 = op3.add(10.0, 10.0)
     println("AdvOperation->div(10.0, 10.0) + 100.0 : $result4 ")
-    println("Operation->add(10.0, 10.0) : " + Operation().add(10.0, 10.0))
+    println("BasicOperation->add(10.0, 10.0) : " + BasicOperation().add(10.0, 10.0))
 
     // Casting
-    val op4 = AdvOperation() as Operation
-    println("Operation->add(10.0, 15.0) : " + op4.add(10.0, 15.0))
+    val op4 = AdvOperation() as BasicOperation
+    println("BasicOperation->add(10.0, 15.0) : " + op4.add(10.0, 15.0))
 
     // Abstract
     op4.showMsg("It's fun!")
