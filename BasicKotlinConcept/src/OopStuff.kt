@@ -1,16 +1,21 @@
+enum class Operator {
+    ADD,
+    SUB,
+    MUL,
+    DIV;
+}
+
 interface op {
     fun div(n1: Double, n2: Double): Double
 }
 
 abstract class Log() {
     fun showMsg(str: String?) {
-        println("[TAG]" + str)
+        println("[" + str + "]")
     }
 }
 
 open class Operation() : op, Log() {
-
-    private val TAG: String = "Operation"
 
     var processName: String? = null
 
@@ -23,14 +28,14 @@ open class Operation() : op, Log() {
     }
 
     open fun add(n1: Double, n2: Double): Double {
-        this.processName = "Add"
-        this.showMsg(TAG)
+        this.processName = Operator.ADD.name
+        this.showMsg(this.processName)
         return n1 + n2
     }
 
     override fun div(n1: Double, n2: Double): Double {
-        this.processName = "Div"
-        this.showMsg(TAG)
+        this.processName = Operator.DIV.name
+        this.showMsg(this.processName)
         return n1 / n2
     }
 
@@ -49,27 +54,25 @@ open class Operation() : op, Log() {
 
 class AdvOperation() : Operation() {
 
-    private val TAG: String = "AdvOperation"
-
     init {
         println("Class AdvOperation")
     }
 
     override fun add(n1: Double, n2: Double): Double {
-        this.processName = "Add"
-        this.showMsg(TAG)
+        this.processName = Operator.ADD.name
+        this.showMsg(this.processName)
         return n1 + n2 + 100.0
     }
 
     fun sub(n1: Double, n2: Double): Double {
-        this.processName = "Sub"
-        this.showMsg(TAG)
+        this.processName = Operator.SUB.name
+        this.showMsg(this.processName)
         return n1 - n2
     }
 
     fun mul(n1: Double, n2: Double): Double {
-        this.processName = "Mul"
-        this.showMsg(TAG)
+        this.processName = Operator.MUL.name
+        this.showMsg(this.processName)
         return n1 * n2
     }
 
@@ -100,7 +103,6 @@ fun main(args: Array<String>) {
 
     val result3 = AdvOperation().div(22.0, 2.0)
     println("AdvOperation->div(22.0, 2.0) : $result3 ")
-    println("Parent Process Name: " + op2.getParenetProcessName())
 
     // Override
     val op3 = AdvOperation()
