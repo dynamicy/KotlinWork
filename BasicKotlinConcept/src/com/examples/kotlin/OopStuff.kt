@@ -1,3 +1,5 @@
+package com.examples.kotlin
+
 enum class Operator {
     ADD,
     SUB,
@@ -24,7 +26,7 @@ open class BasicOperation() : op, Operation() {
     var num2: Double? = null
 
     init {
-        println("Class Operation")
+        println("Class com.examples.kotlin.Operation")
     }
 
     open fun add(n1: Double, n2: Double): Double {
@@ -55,7 +57,7 @@ open class BasicOperation() : op, Operation() {
 class AdvOperation() : BasicOperation() {
 
     init {
-        println("Class AdvOperation")
+        println("Class com.examples.kotlin.AdvOperation")
     }
 
     override fun add(n1: Double, n2: Double): Double {
@@ -83,36 +85,36 @@ class AdvOperation() : BasicOperation() {
 
 fun main(args: Array<String>) {
 
-    // Operation
+    // com.examples.kotlin.Operation
     val op1 = BasicOperation()
-    println("BasicOperation->add(11.0, 12.0) : " + op1.add(10.0, 15.0))
+    println("com.examples.kotlin.BasicOperation->com.examples.kotlin.add(11.0, 12.0) : " + op1.add(10.0, 15.0))
 
     val result1 = BasicOperation().add(11.0, 12.0)
-    println("BasicOperation->add(11.0, 12.0) : $result1 ")
+    println("com.examples.kotlin.BasicOperation->com.examples.kotlin.add(11.0, 12.0) : $result1 ")
 
-    // AdvOperation
+    // com.examples.kotlin.AdvOperation
     val op2 = AdvOperation()
-    println("BasicOperation->add(10.0, 15.0) : " + op2.add(10.0, 15.0))
+    println("com.examples.kotlin.BasicOperation->com.examples.kotlin.add(10.0, 15.0) : " + op2.add(10.0, 15.0))
     println("Parent Process Name: " + op2.getParenetProcessName())
-    println("BasicOperation->sub(10.0, 15.0) : " + op2.sub(10.0, 15.0))
+    println("com.examples.kotlin.BasicOperation->com.examples.kotlin.sub(10.0, 15.0) : " + op2.sub(10.0, 15.0))
     println("Parent Process Name: " + op2.getParenetProcessName())
 
     val result2 = AdvOperation().mul(11.0, 12.0)
-    println("AdvOperation->mul(11.0, 12.0) : $result2 ")
+    println("com.examples.kotlin.AdvOperation->com.examples.kotlin.mul(11.0, 12.0) : $result2 ")
     println("Parent Process Name: " + op2.getParenetProcessName())
 
     val result3 = AdvOperation().div(22.0, 2.0)
-    println("AdvOperation->div(22.0, 2.0) : $result3 ")
+    println("com.examples.kotlin.AdvOperation->com.examples.kotlin.div(22.0, 2.0) : $result3 ")
 
     // Override
     val op3 = AdvOperation()
     val result4 = op3.add(10.0, 10.0)
-    println("AdvOperation->div(10.0, 10.0) + 100.0 : $result4 ")
-    println("BasicOperation->add(10.0, 10.0) : " + BasicOperation().add(10.0, 10.0))
+    println("com.examples.kotlin.AdvOperation->com.examples.kotlin.div(10.0, 10.0) + 100.0 : $result4 ")
+    println("com.examples.kotlin.BasicOperation->com.examples.kotlin.add(10.0, 10.0) : " + BasicOperation().add(10.0, 10.0))
 
     // Casting
     val op4 = AdvOperation() as BasicOperation
-    println("BasicOperation->add(10.0, 15.0) : " + op4.add(10.0, 15.0))
+    println("com.examples.kotlin.BasicOperation->com.examples.kotlin.add(10.0, 15.0) : " + op4.add(10.0, 15.0))
 
     // Abstract
     op4.showMsg("It's fun!")

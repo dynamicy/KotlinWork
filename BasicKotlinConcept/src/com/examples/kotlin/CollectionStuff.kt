@@ -1,3 +1,5 @@
+package com.examples.kotlin
+
 /**
  * Collection
  */
@@ -52,7 +54,7 @@ fun main(args: Array<String>) {
     // setOf
     val set = setOf<Int>(1, 2, 3, 5, 6, 7, 88, 43, 43, 43)
 
-//    set.add(33) // it doesn't work
+//    set.com.examples.kotlin.add(33) // it doesn't work
 
     println()
 

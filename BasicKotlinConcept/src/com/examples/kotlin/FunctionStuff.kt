@@ -1,3 +1,5 @@
+package com.examples.kotlin
+
 var result:Double = 0.0
 
 fun add(n1: Double, n2: Double): Double {

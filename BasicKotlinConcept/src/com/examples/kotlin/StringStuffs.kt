@@ -1,3 +1,5 @@
+package com.examples.kotlin
+
 fun main(args: Array<String>) {
 
     val demoStr = " this is an apple. "
