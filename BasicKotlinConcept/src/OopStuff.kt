@@ -2,7 +2,15 @@ interface op {
     fun div(n1: Double, n2: Double): Double
 }
 
-open class Operation() : op {
+abstract class Log() {
+    fun showMsg(str: String?) {
+        println("[TAG]" + str)
+    }
+}
+
+open class Operation() : op, Log() {
+
+    private val TAG: String = "Operation"
 
     var processName: String? = null
 
@@ -16,11 +24,13 @@ open class Operation() : op {
 
     open fun add(n1: Double, n2: Double): Double {
         this.processName = "Add"
+        this.showMsg(TAG)
         return n1 + n2
     }
 
     override fun div(n1: Double, n2: Double): Double {
         this.processName = "Div"
+        this.showMsg(TAG)
         return n1 / n2
     }
 
@@ -39,21 +49,27 @@ open class Operation() : op {
 
 class AdvOperation() : Operation() {
 
+    private val TAG: String = "AdvOperation"
+
     init {
         println("Class AdvOperation")
     }
 
     override fun add(n1: Double, n2: Double): Double {
+        this.processName = "Add"
+        this.showMsg(TAG)
         return n1 + n2 + 100.0
     }
 
     fun sub(n1: Double, n2: Double): Double {
         this.processName = "Sub"
+        this.showMsg(TAG)
         return n1 - n2
     }
 
     fun mul(n1: Double, n2: Double): Double {
         this.processName = "Mul"
+        this.showMsg(TAG)
         return n1 * n2
     }
 
@@ -95,4 +111,7 @@ fun main(args: Array<String>) {
     // Casting
     val op4 = AdvOperation() as Operation
     println("Operation->add(10.0, 15.0) : " + op4.add(10.0, 15.0))
+
+    // Abstract
+    op4.showMsg("It's fun!")
 }
