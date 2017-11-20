@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FindMyAgesApp</string>
+    <string name="enter_your_dob">Enter your DOB</string>
+    <string name="get_my_age">Get my age</string>
 </resources>
