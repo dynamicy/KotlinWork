@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa59159b-f42c-4eb8-8a94-faaa000f139b" name="Default" comment="Sealed class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/AdvOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/AdvOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/BasicOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/BasicOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/OopStuffKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/OopStuffKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/Operation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="HelloWorld.iml" />
@@ -48,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/OopStuff.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="648">
-              <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -126,40 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BasicKotlinConcept" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BasicKotlinConcept" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="BasicKotlinConcept" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BasicKotlinConcept" type="616d4139:PackageViewModuleNode" />
-              <item name="com.examples.kotlin" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="BasicKotlinConcept" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BasicKotlinConcept" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-            <path>
-              <item name="BasicKotlinConcept" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BasicKotlinConcept" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="kotlin" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="BasicKotlinConcept" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BasicKotlinConcept" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="kotlin" type="1f31426a:PackageElementNode" />
-              <item name="io" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,20 +145,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549644203438" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549646819937" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -215,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.OopStuffKt">
+  <component name="RunManager" selected="Kotlin.StringStuffsKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -300,6 +263,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileDealerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true">
+      <module name="BasicKotlinConcept" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.file.FileDealerKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileWriterKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true">
+      <module name="BasicKotlinConcept" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.file.FileWriterKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InnerClassKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true">
+      <module name="BasicKotlinConcept" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.InnerClassKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OopStuffKt" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="BasicKotlinConcept" />
       <option name="VM_PARAMETERS" value="" />
@@ -326,6 +328,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringStuffsKt" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="BasicKotlinConcept" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.StringStuffsKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadStuffKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true">
+      <module name="BasicKotlinConcept" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.ThreadStuffKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryCatchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true">
+      <module name="BasicKotlinConcept" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.TryCatchKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VarNValKt" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="BasicKotlinConcept" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.VarNValKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="HelloWorld" />
       <option name="VM_PARAMETERS" />
@@ -334,71 +388,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.examples.kotlin.InnerClassKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="BasicKotlinConcept" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.InnerClassKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.examples.kotlin.ThreadStuffKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="BasicKotlinConcept" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.ThreadStuffKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.examples.kotlin.TryCatchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="BasicKotlinConcept" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.TryCatchKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.examples.kotlin.file.FileDealerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="BasicKotlinConcept" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.file.FileDealerKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.examples.kotlin.file.FileWriterKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="BasicKotlinConcept" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.file.FileWriterKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -428,20 +417,22 @@
       <item itemvalue="Kotlin.CollectionStuffKt" />
       <item itemvalue="Kotlin.ConvertBetweenDataTypeKt" />
       <item itemvalue="Kotlin.OopStuffKt" />
+      <item itemvalue="Kotlin.VarNValKt" />
       <item itemvalue="Kotlin.ArrayNArrayListKt" />
-      <item itemvalue="Kotlin.com.examples.kotlin.InnerClassKt" />
-      <item itemvalue="Kotlin.com.examples.kotlin.TryCatchKt" />
-      <item itemvalue="Kotlin.com.examples.kotlin.file.FileWriterKt" />
-      <item itemvalue="Kotlin.com.examples.kotlin.file.FileDealerKt" />
-      <item itemvalue="Kotlin.com.examples.kotlin.ThreadStuffKt" />
+      <item itemvalue="Kotlin.StringStuffsKt" />
+      <item itemvalue="Kotlin.InnerClassKt" />
+      <item itemvalue="Kotlin.TryCatchKt" />
+      <item itemvalue="Kotlin.FileWriterKt" />
+      <item itemvalue="Kotlin.FileDealerKt" />
+      <item itemvalue="Kotlin.ThreadStuffKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.com.examples.kotlin.ThreadStuffKt" />
-        <item itemvalue="Kotlin.com.examples.kotlin.file.FileDealerKt" />
-        <item itemvalue="Kotlin.com.examples.kotlin.file.FileWriterKt" />
-        <item itemvalue="Kotlin.com.examples.kotlin.TryCatchKt" />
-        <item itemvalue="Kotlin.com.examples.kotlin.InnerClassKt" />
+        <item itemvalue="Kotlin.TryCatchKt" />
+        <item itemvalue="Kotlin.ThreadStuffKt" />
+        <item itemvalue="Kotlin.FileDealerKt" />
+        <item itemvalue="Kotlin.FileWriterKt" />
+        <item itemvalue="Kotlin.InnerClassKt" />
       </list>
     </recent_temporary>
   </component>
@@ -474,6 +465,7 @@
       <workItem from="1549644421807" duration="102000" />
       <workItem from="1549644556674" duration="38000" />
       <workItem from="1549644622921" duration="877000" />
+      <workItem from="1549646440542" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="First commit.">
       <created>1510582121380</created>
@@ -720,16 +712,23 @@
       <option name="project" value="LOCAL" />
       <updated>1549646006753</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Sealed class.">
+      <created>1549646485379</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1549646485379</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35929000" />
+    <option name="totallyTimeSpent" value="36308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25107297" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -983,7 +982,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/OopStuff.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
-          <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
         </state>
       </provider>
     </entry>
