@@ -54,6 +54,18 @@ open class BasicOperation() : op, Operation() {
     }
 }
 
+sealed class Mammal(val name: String)
+
+class Cat(val catName: String) : Mammal(catName)
+class Human(val humanName: String, val job: String) : Mammal(humanName)
+
+fun greetMammal(mammal: Mammal): String {
+    when (mammal) {                                                                     // 3
+        is Human -> return "Hello ${mammal.name}; You're working as a ${mammal.job}"    // 4
+        is Cat -> return "Hello ${mammal.name}"                                         // 5
+    }                                                                                   // 6
+}
+
 class AdvOperation() : BasicOperation() {
 
     init {
@@ -118,4 +130,8 @@ fun main(args: Array<String>) {
 
     // Abstract
     op4.showMsg("It's fun!")
+
+    // Seal
+    println(greetMammal(Cat("Snowy")))
+    println(greetMammal(Human("John", "Engineer")))
 }
