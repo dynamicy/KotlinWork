@@ -1,42 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa59159b-f42c-4eb8-8a94-faaa000f139b" name="Default" comment="Preconditions.">
+    <list default="true" id="aa59159b-f42c-4eb8-8a94-faaa000f139b" name="Default" comment="Sealed class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/META-INF/BasicKotlinConcept.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/AdvOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/ArrayNArrayListKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/BasicIOKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/BasicOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/CollectionStuffKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/ConvertBetweenDataTypeKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/ExpressionKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/ExtensionKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/FunctionStuffKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/InnerClassKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/LoopControlKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/MathOperationKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/NulSafetyKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/OopStuffKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/OperationPriorityKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/Operator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/Outter$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/Outter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/ReturnNJumpsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/StringStuffsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/ThreadStuffKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/ThreadStuffKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/ThreadStuffKt$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/ThreadStuffKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/TryCatchKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/VarNValKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/file/FileDealerKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/file/FileWriterKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/file/TextDealer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/file/TextWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/op.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/AdvOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/AdvOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/BasicOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/BasicOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/OopStuffKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/OopStuffKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/Operation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="HelloWorld.iml" />
@@ -56,11 +26,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/BasicIO.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/OopStuff.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -120,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/ThreadStuff.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/PreconditionStuff.kt" />
+        <option value="$PROJECT_DIR$/src/com/examples/kotlin/OopStuff.kt" />
       </list>
     </option>
   </component>
@@ -137,29 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BasicKotlinConcept" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicKotlinConcept" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicKotlinConcept" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicKotlinConcept" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicKotlinConcept" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicKotlinConcept" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -194,6 +160,29 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BasicKotlinConcept" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicKotlinConcept" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicKotlinConcept" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicKotlinConcept" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicKotlinConcept" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicKotlinConcept" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ConvertBetweenDataTypeKt">
+  <component name="RunManager" selected="Kotlin.OopStuffKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -306,6 +295,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.DataClassStuffKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OopStuffKt" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="BasicKotlinConcept" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.OopStuffKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -425,6 +427,7 @@
       <item itemvalue="Kotlin.PreconditionStuffKt" />
       <item itemvalue="Kotlin.CollectionStuffKt" />
       <item itemvalue="Kotlin.ConvertBetweenDataTypeKt" />
+      <item itemvalue="Kotlin.OopStuffKt" />
       <item itemvalue="Kotlin.ArrayNArrayListKt" />
       <item itemvalue="Kotlin.com.examples.kotlin.InnerClassKt" />
       <item itemvalue="Kotlin.com.examples.kotlin.TryCatchKt" />
@@ -470,6 +473,7 @@
       <workItem from="1549644361539" duration="11000" />
       <workItem from="1549644421807" duration="102000" />
       <workItem from="1549644556674" duration="38000" />
+      <workItem from="1549644622921" duration="877000" />
     </task>
     <task id="LOCAL-00001" summary="First commit.">
       <created>1510582121380</created>
@@ -702,16 +706,30 @@
       <option name="project" value="LOCAL" />
       <updated>1549640734827</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Settings.">
+      <created>1549644785142</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1549644785142</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Sealed class.">
+      <created>1549646006753</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1549646006753</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35052000" />
+    <option name="totallyTimeSpent" value="35929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24391988" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -721,7 +739,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286908" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3939759" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3939759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -750,8 +768,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Math operation." />
-    <MESSAGE value="Operation Priority." />
     <MESSAGE value="Expression." />
     <MESSAGE value="Loop Control." />
     <MESSAGE value="Return and jump." />
@@ -775,7 +791,9 @@
     <MESSAGE value="Thread stuff." />
     <MESSAGE value="Data class stuff." />
     <MESSAGE value="Preconditions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Preconditions." />
+    <MESSAGE value="Settings." />
+    <MESSAGE value="Sealed class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sealed class." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties" />
@@ -862,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/OopStuff.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/LoopControl.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -880,13 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/BasicIO.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -966,6 +970,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/BasicIO.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/OopStuff.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
         </state>
       </provider>
     </entry>
