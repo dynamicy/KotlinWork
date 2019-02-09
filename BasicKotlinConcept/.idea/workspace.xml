@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa59159b-f42c-4eb8-8a94-faaa000f139b" name="Default" comment="Sealed class.">
+      <change afterPath="$PROJECT_DIR$/src/com/examples/kotlin/jam/NamedArguments.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,19 +33,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/BasicIO.kt">
+        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/file/FileDealer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="573">
+              <caret line="74" selection-start-line="74" selection-end-line="82" selection-end-column="1" />
+              <folding>
+                <element signature="e#34#109#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/OopStuff.kt">
+        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/jam/NamedArguments.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            <state relative-caret-position="30">
+              <caret line="2" column="96" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -105,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/PreconditionStuff.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/OopStuff.kt" />
+        <option value="$PROJECT_DIR$/src/com/examples/kotlin/jam/NamedArguments.kt" />
       </list>
     </option>
   </component>
@@ -122,7 +127,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BasicKotlinConcept" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BasicKotlinConcept" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="BasicKotlinConcept" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BasicKotlinConcept" type="616d4139:PackageViewModuleNode" />
+              <item name="com.examples.kotlin" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BasicKotlinConcept" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BasicKotlinConcept" type="616d4139:PackageViewModuleNode" />
+              <item name="com.examples.kotlin" type="1f31426a:PackageElementNode" />
+              <item name="file" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BasicKotlinConcept" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BasicKotlinConcept" type="616d4139:PackageViewModuleNode" />
+              <item name="com.examples.kotlin" type="1f31426a:PackageElementNode" />
+              <item name="jam" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,19 +171,26 @@
               <item name="BasicKotlinConcept" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicKotlinConcept" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicKotlinConcept" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicKotlinConcept" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549646819937" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549686100650" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -161,6 +200,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.examples.kotlinlang" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/examples/kotlin/file" />
       <recent name="$PROJECT_DIR$/src/com/examples/kotlin" />
@@ -178,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.StringStuffsKt">
+  <component name="RunManager" selected="Kotlin.NamedArgumentsKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -302,6 +344,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NamedArgumentsKt" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="BasicKotlinConcept" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.jam.NamedArgumentsKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OopStuffKt" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="BasicKotlinConcept" />
       <option name="VM_PARAMETERS" value="" />
@@ -420,6 +475,7 @@
       <item itemvalue="Kotlin.VarNValKt" />
       <item itemvalue="Kotlin.ArrayNArrayListKt" />
       <item itemvalue="Kotlin.StringStuffsKt" />
+      <item itemvalue="Kotlin.NamedArgumentsKt" />
       <item itemvalue="Kotlin.InnerClassKt" />
       <item itemvalue="Kotlin.TryCatchKt" />
       <item itemvalue="Kotlin.FileWriterKt" />
@@ -723,12 +779,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36308000" />
+    <option name="totallyTimeSpent" value="37082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25107297" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -738,7 +795,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286908" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3939759" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3939759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -900,15 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/file/FileDealer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#34#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/io/Console.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -983,6 +1031,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/file/FileDealer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="74" selection-start-line="74" selection-end-line="82" selection-end-column="1" />
+          <folding>
+            <element signature="e#34#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/jam/NamedArguments.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="96" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
         </state>
       </provider>
     </entry>
