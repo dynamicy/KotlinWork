@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa59159b-f42c-4eb8-8a94-faaa000f139b" name="Default" comment="Strings">
-      <change afterPath="$PROJECT_DIR$/src/com/examples/kotlin/CodeBlockMeasurement.kt" afterDir="false" />
+    <list default="true" id="aa59159b-f42c-4eb8-8a94-faaa000f139b" name="Default" comment="Code Block Measurement">
+      <change afterPath="$PROJECT_DIR$/src/com/examples/kotlin/DeprecationLevel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/META-INF/BasicKotlinConcept.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlinConcept/META-INF/BasicKotlinConcept.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="HelloWorld.iml" />
@@ -33,14 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/CodeBlockMeasurement.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="148">
+              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="31" />
               <folding>
                 <element signature="e#29#104#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/DeprecationLevel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -107,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/StringStuffs.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/CodeBlockMeasurement.kt" />
+        <option value="$PROJECT_DIR$/src/com/examples/kotlin/DeprecationLevel.kt" />
       </list>
     </option>
   </component>
@@ -181,7 +191,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549724465873" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549725340354" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -211,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.CodeBlockMeasurementKt">
+  <component name="RunManager" selected="Kotlin.DeprecationLevelKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -317,6 +327,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.koans.DefaultArgumentsKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeprecationLevelKt" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="BasicKotlinConcept" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.DeprecationLevelKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -506,6 +529,7 @@
       <item itemvalue="Kotlin.ArrayNArrayListKt" />
       <item itemvalue="Kotlin.StringStuffsKt" />
       <item itemvalue="Kotlin.CodeBlockMeasurementKt" />
+      <item itemvalue="Kotlin.DeprecationLevelKt" />
       <item itemvalue="Kotlin.NamedArgumentsKt" />
       <item itemvalue="Kotlin.DefaultArgumentsKt" />
       <item itemvalue="Kotlin.LambdasKt" />
@@ -556,7 +580,7 @@
       <workItem from="1549644622921" duration="877000" />
       <workItem from="1549646440542" duration="379000" />
       <workItem from="1549707546096" duration="432000" />
-      <workItem from="1549708262318" duration="1071000" />
+      <workItem from="1549708262318" duration="2056000" />
     </task>
     <task id="LOCAL-00001" summary="First commit.">
       <created>1510582121380</created>
@@ -838,15 +862,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549696882824</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Code Block Measurement">
+      <created>1549724512906</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1549724512906</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42217000" />
+    <option name="totallyTimeSpent" value="43202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2653791" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -858,7 +888,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286908" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3939759" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3939759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -887,7 +917,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array and ArrayList." />
     <MESSAGE value="Collection stuff." />
     <MESSAGE value="Function stuff." />
     <MESSAGE value="OOP stuff." />
@@ -912,7 +941,8 @@
     <MESSAGE value="Default arguments" />
     <MESSAGE value="Lambdas" />
     <MESSAGE value="Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strings" />
+    <MESSAGE value="Code Block Measurement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Block Measurement" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties" />
@@ -1137,11 +1167,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/CodeBlockMeasurement.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="148">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="31" />
           <folding>
             <element signature="e#29#104#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/DeprecationLevel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
