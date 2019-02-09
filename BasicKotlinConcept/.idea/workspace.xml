@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa59159b-f42c-4eb8-8a94-faaa000f139b" name="Default" comment="Code Block Measurement">
-      <change afterPath="$PROJECT_DIR$/src/com/examples/kotlin/DeprecationLevel.kt" afterDir="false" />
+    <list default="true" id="aa59159b-f42c-4eb8-8a94-faaa000f139b" name="Default" comment="DeprecationLevel.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/META-INF/BasicKotlinConcept.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlinConcept/META-INF/BasicKotlinConcept.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/examples/kotlin/DeprecationLevel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/examples/kotlin/DeprecationLevel.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="HelloWorld.iml" />
@@ -33,23 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/CodeBlockMeasurement.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="31" />
-              <folding>
-                <element signature="e#29#104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/DeprecationLevel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -191,7 +178,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549725340354" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549726457816" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -580,7 +567,7 @@
       <workItem from="1549644622921" duration="877000" />
       <workItem from="1549646440542" duration="379000" />
       <workItem from="1549707546096" duration="432000" />
-      <workItem from="1549708262318" duration="2056000" />
+      <workItem from="1549708262318" duration="2811000" />
     </task>
     <task id="LOCAL-00001" summary="First commit.">
       <created>1510582121380</created>
@@ -869,14 +856,22 @@
       <option name="project" value="LOCAL" />
       <updated>1549724512906</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="DeprecationLevel.">
+      <created>1549725360583</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1549725360583</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43202000" />
+    <option name="totallyTimeSpent" value="43957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2653791" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -917,7 +912,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Collection stuff." />
     <MESSAGE value="Function stuff." />
     <MESSAGE value="OOP stuff." />
     <MESSAGE value="Overriding." />
@@ -942,7 +936,8 @@
     <MESSAGE value="Lambdas" />
     <MESSAGE value="Strings" />
     <MESSAGE value="Code Block Measurement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code Block Measurement" />
+    <MESSAGE value="DeprecationLevel." />
+    <option name="LAST_COMMIT_MESSAGE" value="DeprecationLevel." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties" />
@@ -1158,13 +1153,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/CodeBlockMeasurement.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1175,10 +1163,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/DeprecationLevel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="56" />
         </state>
       </provider>
     </entry>
