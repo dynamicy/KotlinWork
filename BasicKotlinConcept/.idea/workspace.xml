@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa59159b-f42c-4eb8-8a94-faaa000f139b" name="Default" comment="Lambdas">
+    <list default="true" id="aa59159b-f42c-4eb8-8a94-faaa000f139b" name="Default" comment="Strings">
+      <change afterPath="$PROJECT_DIR$/src/com/examples/kotlin/CodeBlockMeasurement.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/StringStuffsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlinConcept/com/examples/kotlin/StringStuffsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/examples/kotlin/StringStuffs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/examples/kotlin/StringStuffs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="HelloWorld.iml" />
@@ -25,28 +25,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/koans/Lambdas.kt">
+        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/StringStuffs.kt">
+        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/CodeBlockMeasurement.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/koans/NamedArguments.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="480">
+              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+              <folding>
+                <element signature="e#29#104#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +98,6 @@
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/file/FileWriter.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/file/FileDealer.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/ThreadStuff.kt" />
-        <option value="$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/PreconditionStuff.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/OopStuff.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/jam/NamedArguments.kt" />
@@ -112,6 +105,8 @@
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/koans/DefaultArguments.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/koans/Lambdas.kt" />
         <option value="$PROJECT_DIR$/src/com/examples/kotlin/StringStuffs.kt" />
+        <option value="$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt" />
+        <option value="$PROJECT_DIR$/src/com/examples/kotlin/CodeBlockMeasurement.kt" />
       </list>
     </option>
   </component>
@@ -129,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -146,13 +142,6 @@
               <item name="BasicKotlinConcept" type="616d4139:PackageViewModuleNode" />
               <item name="com.examples" type="1f31426a:PackageElementNode" />
               <item name="kotlin" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="BasicKotlinConcept" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BasicKotlinConcept" type="616d4139:PackageViewModuleNode" />
-              <item name="com.examples" type="1f31426a:PackageElementNode" />
-              <item name="kotlin" type="1f31426a:PackageElementNode" />
-              <item name="koans" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -187,20 +176,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549696805976" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549724465873" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -223,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.StringStuffsKt">
+  <component name="RunManager" selected="Kotlin.CodeBlockMeasurementKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -264,6 +252,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.BasicIOKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeBlockMeasurementKt" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="BasicKotlinConcept" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.kotlin.CodeBlockMeasurementKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -504,6 +505,7 @@
       <item itemvalue="Kotlin.VarNValKt" />
       <item itemvalue="Kotlin.ArrayNArrayListKt" />
       <item itemvalue="Kotlin.StringStuffsKt" />
+      <item itemvalue="Kotlin.CodeBlockMeasurementKt" />
       <item itemvalue="Kotlin.NamedArgumentsKt" />
       <item itemvalue="Kotlin.DefaultArgumentsKt" />
       <item itemvalue="Kotlin.LambdasKt" />
@@ -553,6 +555,8 @@
       <workItem from="1549644556674" duration="38000" />
       <workItem from="1549644622921" duration="877000" />
       <workItem from="1549646440542" duration="379000" />
+      <workItem from="1549707546096" duration="432000" />
+      <workItem from="1549708262318" duration="1071000" />
     </task>
     <task id="LOCAL-00001" summary="First commit.">
       <created>1510582121380</created>
@@ -827,17 +831,24 @@
       <option name="project" value="LOCAL" />
       <updated>1549689755914</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Strings">
+      <created>1549696882824</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1549696882824</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40272000" />
+    <option name="totallyTimeSpent" value="42217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2653791" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -847,7 +858,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286908" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3939759" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3939759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -876,7 +887,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="String stuff." />
     <MESSAGE value="Array and ArrayList." />
     <MESSAGE value="Collection stuff." />
     <MESSAGE value="Function stuff." />
@@ -901,7 +911,8 @@
     <MESSAGE value="Named arguments" />
     <MESSAGE value="Default arguments" />
     <MESSAGE value="Lambdas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambdas" />
+    <MESSAGE value="Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strings" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties" />
@@ -1058,13 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/BasicIO.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1096,13 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/koans/NamedArguments.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/koans/DefaultArguments.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1110,10 +1107,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/koans/Lambdas.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/koans/NamedArguments.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1121,6 +1118,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/koans/Lambdas.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/DataClassStuff.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/examples/kotlin/CodeBlockMeasurement.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding>
+            <element signature="e#29#104#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
