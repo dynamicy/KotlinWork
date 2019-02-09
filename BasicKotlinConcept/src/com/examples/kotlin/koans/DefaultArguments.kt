@@ -1,4 +1,4 @@
-package com.examples.kotlin.jam
+package com.examples.kotlin.koans
 
 fun foo(name: String, number: Int): String {
     return foo(name, number, false)
@@ -22,6 +22,6 @@ fun useFoo() = listOf(
         foo(name = "d", number = 2, toUpperCase = true)
 )
 
-fun main() {
+fun main(arg: Array<String>) {
     println(useFoo())
 }

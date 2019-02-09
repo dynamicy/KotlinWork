@@ -1,4 +1,4 @@
-package com.examples.kotlin.jam
+package com.examples.kotlin.koans
 
 fun joinOptions(options: Collection<String>) = options.joinToString(prefix = "[", postfix = "]")
 
